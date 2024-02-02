@@ -1,4 +1,4 @@
-  // Step 4: Log in with the created user
-  await page.fill('#username', newUser.email);
-  await page.fill('#password', newUser.password);
-  await page.click('#login-button');
+// Step 4: Log in with the created user
+await page.fill('input[formcontrolname="email"]', newUser.email);
+await page.fill('input[formcontrolname="password"]', passsword);
+await page.click('button.btn.btn-primary.my-4');
