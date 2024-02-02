@@ -1,0 +1,22 @@
+{
+  "name": "qubika-playwright--challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-user-api": "node create-user-api.js",
+    "validate-user-login": "node validate-user-login.js",
+    "validate-category": "node create-validate-category.js",
+    "challenge-ui-api": "node challenge-ui-api.js"
+  },
+  "keywords": [],
+  "author": "Brandon Mansfield",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.16"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
